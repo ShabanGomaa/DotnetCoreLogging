@@ -15,7 +15,8 @@ namespace DotnetCoreLogging.Controllers
 
         public string Get()
         {
-            _logger.LogInformation("Get customer at "+ DateTime.UtcNow.ToLongTimeString());
+            _logger.Log(LogLevel.Information, "Get customer at " + DateTimeOffset.UtcNow.ToString());
+            _logger.LogInformation("Get customer at "+ DateTimeOffset.UtcNow.ToString());
             return "Customer 1";
         }
     }

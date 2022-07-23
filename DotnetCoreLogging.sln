@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCoreLogging", "DotnetCoreLogging\DotnetCoreLogging.csproj", "{1770C011-BEFB-4C83-905F-3DC77DDFAA9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetCoreLogging", "DotnetCoreLogging\DotnetCoreLogging.csproj", "{1770C011-BEFB-4C83-905F-3DC77DDFAA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCoreLogging.CustomLog", "DotnetCoreLogging.CustomLog\DotnetCoreLogging.CustomLog.csproj", "{0A7C8D57-9677-40EE-BC7A-1F12B68D7646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCoreLogging.Data", "DotnetCoreLogging.Data\DotnetCoreLogging.Data.csproj", "{A357128C-C31E-4BCA-A049-36A8C68360B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1770C011-BEFB-4C83-905F-3DC77DDFAA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1770C011-BEFB-4C83-905F-3DC77DDFAA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1770C011-BEFB-4C83-905F-3DC77DDFAA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7C8D57-9677-40EE-BC7A-1F12B68D7646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7C8D57-9677-40EE-BC7A-1F12B68D7646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7C8D57-9677-40EE-BC7A-1F12B68D7646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7C8D57-9677-40EE-BC7A-1F12B68D7646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A357128C-C31E-4BCA-A049-36A8C68360B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A357128C-C31E-4BCA-A049-36A8C68360B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A357128C-C31E-4BCA-A049-36A8C68360B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A357128C-C31E-4BCA-A049-36A8C68360B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
